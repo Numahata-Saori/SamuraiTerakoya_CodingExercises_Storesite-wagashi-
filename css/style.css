@@ -31,7 +31,7 @@ li {
 }
 
 .header {
-  background-image: url(../img/mainvisual-sp.jpg);
+  background-image: url(../img/mainvisual-pc.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -44,6 +44,11 @@ li {
   -webkit-writing-mode: vertical-rl;
   -moz-writing-mode: vertical-rl;
   -ms-writing-mode: tb-rl;
+}
+@media screen and (max-width: 900px) {
+  .header {
+    background-image: url(../img/mainvisual-sp.jpg);
+  }
 }
 .header .logo-title {
   padding-left: 60px;
